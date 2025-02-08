@@ -22,4 +22,5 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
   pages: {
     verifyRequest: "/verify",
   },
+  trustHost: true,
 });

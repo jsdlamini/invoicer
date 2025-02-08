@@ -63,5 +63,6 @@ ENV PRISMA_GENERATE_SKIP=true
 
 USER nextjs
 EXPOSE 3006
-ENV PORT=3006 HOSTNAME="0.0.0.0"
-CMD ["node", "server.js"]
+ENV PORT 3006 
+ENV HOSTNAME "0.0.0.0"
+CMD ["node", "server.js"]  
